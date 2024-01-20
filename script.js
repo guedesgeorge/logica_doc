@@ -33,7 +33,7 @@ function conferirPalpite() {
     baixoOuAlto.textContent = "";
     configFimDeJogo();
   } else {
-    ultimoResultado.textContent = "Errado!";
+    ultimoResultado.textContent = "Errado!!";
     ultimoResultado.style.backgroundColor = "red";
     if (palpiteUsuario < numeroAleatorio) {
       baixoOuAlto.textContent = "Seu palpite está muito baixo!";
